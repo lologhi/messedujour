@@ -1,0 +1,131 @@
+id,nom,code_postal,ville,nb_messe_we
+1,Saint Eustache,75001,Paris,4
+2,Saint Germain l'Auxerrois,75001,Paris,4
+3,La Madeleine,75001,Paris,11
+4,Saint Roch,75001,Paris,4
+5,Saint Leu Saint Gilles,75001,Paris,1
+6,Notre Dame de Bonne Nouvelle,75002,Paris,2
+7,Notre Dame des Victoires,75002,Paris,3
+8,Saint Denys du Saint Sacrement,75003,Paris,3
+9,Saint Nicolas des Champs,75003,Paris,2
+10,Sainte Elisabeth,75003,Paris,2
+11,Saint Paul Saint Louis,75004,Paris,4
+12,Notre Dame des Blancs Manteaux,75004,Paris,2
+13,Notre Dame de Paris,75004,Paris,6
+14,Saint Louis en l'Ile,75004,Paris,2
+15,Saint Merry,75004,Paris,3
+16,Fraternités Monastiques de Jérusalem à Paris (frères et sœurs de Jérusalem),75004,Paris,1
+17,Aumônerie de l’hôpital la Collégiale,75005,Paris,1
+18,Saint Jacques du Haut Pas,75005,Paris,5
+19,Paroisse maronite,75005,Paris,3
+20,Saint Médard,75005,Paris,4
+21,Saint Etienne du Mont,75005,Paris,5
+22,Saint Séverin,75005,Paris,4
+23,Paroisse grecque-melchite,75005,Paris,2
+24,Saint Sulpice,75006,Paris,13
+25,Notre Dame des Champs,75006,Paris,11
+26,Saint Germain des Prés,75006,Paris,5
+27,Saint François Xavier,75006,Paris,8
+28,Filles de la Charité,75007,Paris,4
+29,Saint Pierre du Gros Caillou,75007,Paris,6
+30,Saint Thomas d'Aquin,75007,Paris,4
+31,Sainte Clotilde,75007,Paris,3
+32,Paris,75007,Paris,2
+33,Saint Philippe du Roule,75008,Paris,10
+34,Saint André de l'Europe,75008,Paris,3
+35,Saint Augustin,75008,Paris,5
+36,Saint Louis d'Antin,75009,Paris,8
+37,La Trinité,75009,Paris,4
+38,Notre Dame de Lorette,75009,Paris,4
+39,Saint Eugène - Sainte Cécile,75009,Paris,2
+40,Saint Laurent,75010,Paris,5
+41,Saint Martin des Champs,75010,Paris,3
+42,Saint Vincent de Paul,75010,Paris,3
+43,Saint Joseph Artisan,75010,Paris,2
+44,Aumônerie de l’hôpital Lariboisière,75010,Paris,1
+45,Aumônerie de l'hôpital Saint-Louis,75010,Paris,1
+46,Bon Pasteur,75011,Paris,2
+47,Notre Dame d'Espérance,75011,Paris,2
+48,Saint Ambroise,75011,Paris,4
+49,Saint Joseph des Nations,75011,Paris,6
+50,Sainte Marguerite,75011,Paris,3
+51,Notre Dame du Perpétuel Secours,75011,Paris,2
+52,Immaculée Conception,75012,Paris,5
+53,Saint Esprit,75012,Paris,5
+54,Notre Dame de Bercy,75012,Paris,1
+55,Saint Antoine des Quinze Vingts,75012,Paris,4
+56,Saint Eloi,75012,Paris,3
+57,Aumônerie de l’hôpital Saint-Antoine,75012,Paris,1
+58,Aumônerie de l’hôpital de la Pitié Salpêtrière,75013,Paris,2
+59,Sainte Anne de la Butte aux Cailles,75013,Paris,4
+60,Notre Dame de la Gare,75013,Paris,5
+61,Sainte Rosalie,75013,Paris,4
+62,Saint Jean des Deux Moulins,75013,Paris,1
+63,Saint Marcel,75013,Paris,1
+64,Saint Hippolyte,75013,Paris,2
+65,Saint Albert le Grand,75013,Paris,3
+66,Aumônerie de l’hôpital Saint-Joseph,75014,Paris,3
+67,Aumônerie du pôle médico-social Notre-Dame de Bon Secours,75014,Paris,2
+68,Saint Dominique,75014,Paris,5
+69,Notre Dame du Rosaire,75014,Paris,4
+70,Notre Dame du Travail,75014,Paris,4
+71,Saint Pierre de Montrouge,75014,Paris,5
+72,Aumônerie de l’hôpital Cochin – Maternité de Port-Royal,75014,Paris,1
+73,Aumônerie de l’hôpital Sainte-Anne et Henri-Rousselle,75014,Paris,1
+74,Aumônerie de l’Hôpital Necker,75015,Paris,2
+75,Aumônerie de l’hôpital Européen Georges Pompidou,75015,Paris,1
+76,Saint Antoine de Padoue,75015,Paris,3
+77,Saint Lambert de Vaugirard,75015,Paris,5
+78,Notre Dame de l'Arche d'Alliance,75015,Paris,4
+79,Notre Dame de Nazareth,75015,Paris,4
+80,Saint Christophe de Javel,75015,Paris,4
+81,Saint Jean Baptiste de Grenelle,75015,Paris,9
+82,Saint Jean Baptiste de la Salle,75015,Paris,7
+83,Saint Léon,75015,Paris,5
+84,Notre Dame de la Salette,75015,Paris,1
+85,Aumônerie de la Maternité Sainte-Félicité,75015,Paris,1
+86,Aumônerie de l’hôpital de Vaugirard,75015,Paris,1
+87,Saint Honoré d'Eylau,75016,Paris,11
+88,Notre Dame d'Auteuil,75016,Paris,10
+89,Notre Dame de Grâce de Passy,75016,Paris,12
+90,Notre Dame de l'Assomption de Passy,75016,Paris,5
+91,Saint François de Molitor,75016,Paris,5
+92,Sainte Jeanne de Chantal,75016,Paris,5
+93,Aumônerie du groupe hospitalier Sainte-Perrine,75016,Paris,2
+94,Notre Dame de Compassion,75017,Paris,3
+95,Saint Charles de Monceau,75017,Paris,4
+96,Sainte Marie des Batignolles,75017,Paris,8
+97,Sainte Odile,75017,Paris,8
+98,Saint Ferdinand des Ternes,75017,Paris,6
+99,Saint François de Sales,75017,Paris,8
+100,Saint Joseph des Epinettes,75017,Paris,2
+101,Saint Michel,75017,Paris,5
+102,Aumônerie de l’Hôpital Bichat - Claude Bernard,75018,Paris,2
+103,Aumônerie de l’hôpital Bretonneau,75018,Paris,1
+104,Saint Pierre de Montmartre,75018,Paris,5
+105,Notre Dame de Clignancourt,75018,Paris,4
+106,Notre Dame du Bon Conseil,75018,Paris,3
+107,Saint Bernard de la Chapelle,75018,Paris,4
+108,Saint Denys de la Chapelle,75018,Paris,6
+109,Saint Jean de Montmartre,75018,Paris,2
+110,Sainte Geneviève des Grandes Carrières,75018,Paris,3
+111,Sainte Hélène,75018,Paris,3
+112,Sacré Coeur de Montmartre,75018,Paris,5
+113,Saint Georges,75019,Paris,4
+114,Saint Jacques Saint Christophe de la Villette,75019,Paris,2
+115,Sainte Claire,75019,Paris,2
+116,Saint Jean Baptiste de Belleville,75019,Paris,6
+117,Saint François d'Assise,75019,Paris,2
+118,Notre Dame des Otages,75019,Paris,5
+119,Saint Luc,75019,Paris,2
+120,Notre Dame de l'Assomption des Buttes Chaumont,75019,Paris,1
+121,Notre Dame des Foyers,75019,Paris,1
+122,Sainte Colette des Buttes Chaumont,75019,Paris,1
+123,Aumônerie de l’hôpital Tenon,75020,Paris,1
+124,Notre Dame de la Croix,75020,Paris,3
+125,Saint Gabriel,75020,Paris,4
+126,Notre Dame de Lourdes,75020,Paris,2
+127,Saint Germain de Charonne,75020,Paris,4
+128,Coeur Eucharistique de Jésus,75020,Paris,2
+129,Saint Jean Bosco,75020,Paris,3
+130,Aumônerie de l’hôpital La Croix-Saint-Simon,75020,Paris,1

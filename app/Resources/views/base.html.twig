@@ -1,13 +1,59 @@
 <!DOCTYPE html>
 <html>
-    <head>
-        <meta charset="UTF-8" />
-        <title>{% block title %}Welcome!{% endblock %}</title>
-        {% block stylesheets %}{% endblock %}
-        <link rel="icon" type="image/x-icon" href="{{ asset('favicon.ico') }}" />
-    </head>
-    <body>
-        {% block body %}{% endblock %}
-        {% block javascripts %}{% endblock %}
-    </body>
+<head>
+    <meta charset="UTF-8" />
+    <title>{% block title %}Messe du jour{% endblock %}</title>
+    {% block stylesheets %}
+        {% stylesheets
+        '@MdJHoraireBundle/Resources/public/bootstrap386/css/bootstrap.min.css'
+        '@MdJHoraireBundle/Resources/public/bootstrap386/css/bootstrap-responsive.min.css'
+        '@MdJHoraireBundle/Resources/public/messeinfo.css'
+        output="css/front_master.css" %}
+        <link href="{{ asset_url }}" type="text/css" rel="stylesheet" />
+        {% endstylesheets %}
+    {% endblock %}
+    <link rel="icon" type="image/x-icon" href="{{ asset('favicon.ico') }}" />
+</head>
+<body>
+
+<div class="navbar navbar-inverse navbar-fixed-top">
+    <div class="navbar-inner">
+        <div class="container">
+            <button type="button" class="btn btn-navbar" data-toggle="collapse" data-target=".nav-collapse"></button>
+            <a class="brand" href="./index.html">Messe du jour</a>
+            <div class="nav-collapse collapse">
+                <ul class="nav">
+                    <li class="active"><a href="./index.html">Home</a></li>
+                    <li class=""><a href="./getting-started.html">Églises</a></li>
+                    <li class=""><a href="./scaffolding.html">Horaires</a></li>
+                </ul>
+            </div>
+        </div>
+    </div>
+</div>
+
+<div class="jumbotron masthead">
+    <div class="container">
+        <h1>Messe du jour</h1>
+        <p class="lead">Quand l'église se met au 2.0 !</p>
+        <ul class="masthead-links">
+            <li><a href="#">Une messe près de chez vous ?</a></li>
+            <li><a href="#">Une adoration ?</a></li>
+            <li><a href="#">Une confession ?</a></li>
+        </ul>
+    </div>
+</div>
+
+<div class="container">
+    {% block body %}{% endblock %}
+</div>
+{% block javascripts %}
+    {% javascripts
+    '//code.jquery.com/jquery-1.11.0.min.js'
+    '@MdJHoraireBundle/Resources/public/bootstrap386/js/bootstrap.min.js'
+    output="js/front_master.js" %}
+    <script type="text/javascript" src="{{ asset_url }}"></script>
+    {% endjavascripts %}
+{% endblock %}
+</body>
 </html>

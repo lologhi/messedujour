@@ -1,0 +1,17 @@
+services:
+    sonata.admin.eglise:
+        class: MdJ\HoraireBundle\Admin\EgliseAdmin
+        tags:
+            - { name: sonata.admin, manager_type: orm, group: "MesseInfo", label: "Eglise" }
+        arguments:
+            - ~
+            - MdJ\HoraireBundle\Entity\Eglise
+            - ~
+    sonata.admin.horaire:
+        class: MdJ\HoraireBundle\Admin\HoraireAdmin
+        tags:
+            - { name: sonata.admin, manager_type: orm, group: "MesseInfo", label: "Horaire" }
+        arguments:
+            - ~
+            - MdJ\HoraireBundle\Entity\Horaire
+            - ~

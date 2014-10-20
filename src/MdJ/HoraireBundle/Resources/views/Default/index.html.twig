@@ -1,0 +1,9 @@
+{% extends '::base.html.twig' %}
+
+{% block body %}
+    <div class="col-md-12">
+        {% for horaire in horaires %}
+            {{ horaire.jour }} à {{ horaire.heureDebut|date('G:i') }} : {{ horaire.type }} à {{ horaire.eglise.nom }}<br/>
+        {% endfor %}
+    </div>
+{% endblock %}
