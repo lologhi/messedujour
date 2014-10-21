@@ -1,22 +1,20 @@
 parameters:
     userpass:          userpass
     adminpass:         adminpass
-    database_driver:   pdo_mysql
+    database_driver:   pdo_pgsql
     database_host:     127.0.0.1
     database_port:     ~
     database_name:     symfony
     database_user:     root
     database_password: ~
-    # You should uncomment this if you want use pdo_sqlite
-    # database_path: "%kernel.root_dir%/data.db3"
 
     mailer_transport:  smtp
     mailer_host:       127.0.0.1
     mailer_user:       ~
     mailer_password:   ~
 
-    locale:            en
-    secret:            ThisTokenIsNotSoSecretChangeIt
+    locale:            fr
+    secret:            ZqPfVTkkiIHPgXzp7leLq4orqEWMp7
 
     debug_toolbar:          true
     debug_redirects:        false
