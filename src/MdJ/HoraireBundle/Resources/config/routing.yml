@@ -1,3 +1,5 @@
 homepage:
     path:     /
     defaults: { _controller: MdJHoraireBundle:Default:index }
+    requirements:
+        _method:  GET
