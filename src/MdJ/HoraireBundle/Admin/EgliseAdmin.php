@@ -39,5 +39,4 @@ class EgliseAdmin extends Admin {
             ->add('slug')
         ;
     }
-
-} 
+}

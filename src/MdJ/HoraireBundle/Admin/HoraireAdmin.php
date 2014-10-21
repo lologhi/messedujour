@@ -44,5 +44,4 @@ class HoraireAdmin extends Admin {
             ->add('heureFin')
         ;
     }
-
-} 
+}
